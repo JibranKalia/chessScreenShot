@@ -1,0 +1,12 @@
+{
+  "name": "chessScreenShot",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "Jibran Kalia <jibran.kalia@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chess.js": "^0.10.2",
+    "chessboardjs": "^0.0.1",
+    "express": "^4.16.2"
+  }
+}
