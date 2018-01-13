@@ -1,7 +1,7 @@
 var board,
   game = new Chess();
 
-var makeRandomMove = function() {
+var makeRandomMove = function () {
   var possibleMoves = game.moves();
 
   // exit if the game is over

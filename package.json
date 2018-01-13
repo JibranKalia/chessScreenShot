@@ -3,10 +3,22 @@
   "version": "1.0.0",
   "main": "app.js",
   "author": "Jibran Kalia <jibran.kalia@gmail.com>",
+  "scripts": {
+    "start": "node app.js"
+  },
   "license": "MIT",
   "dependencies": {
     "chess.js": "^0.10.2",
     "chessboardjs": "^0.0.1",
     "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.15.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-prettier": "^2.4.0",
+    "nodemon": "^1.14.11",
+    "prettier": "^1.10.2"
   }
 }
