@@ -4,7 +4,8 @@
   "main": "app.js",
   "author": "Jibran Kalia <jibran.kalia@gmail.com>",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "license": "MIT",
   "dependencies": {
