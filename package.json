@@ -11,7 +11,8 @@
   "dependencies": {
     "chess.js": "^0.10.2",
     "chessboardjs": "^0.0.1",
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "html2canvas": "^1.0.0-alpha.9"
   },
   "devDependencies": {
     "eslint": "^4.15.0",
