@@ -22,4 +22,4 @@ app.get("*", (req, res) => {
   res.sendFile(path.join(DIST_DIR, "index.html"));
 });
 
-app.listen(PORT, () => console.log("Example app listening on port 3000!"));
+app.listen(PORT, () => console.log(`Example app listening on port ${PORT}!`));
